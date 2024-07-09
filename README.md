@@ -17,10 +17,10 @@ It includes explanations, code examples, and best practices.
 Loops in Java are used to execute a block of code repeatedly until a specified condition is met.
 They are fundamental for tasks that require repeated execution, such as iterating through arrays or collections.
 
-## For Loop
+# For Loop
 The `for loop` is used when the number of iterations is known before entering the loop.
 
-# Syntax
+## Syntax
 for (initialization; condition; increment/decrement) {
     // statements
 }
@@ -29,10 +29,10 @@ for (int i = 0; i < 10; i++) {
     System.out.println("Numbers from 0 to 9  " + i);
 }
 
-## While Loop
+# While Loop
 The `while loop` is used when the number of iterations is not known and depends on a condition.
 
-# Syntax
+## Syntax
 while (condition) {
     // statements
 }
@@ -43,10 +43,10 @@ while (i < 10) {
     i++;
 }
 
-## Do-While Loop
+# Do-While Loop
 The `do-while loop` is similar to the while loop, but it guarantees at least one iteration.
 
-# Syntax
+## Syntax
 do {
     // statements
 } while (condition);
@@ -57,7 +57,7 @@ do {
     i++;
 } while (i < 10);
 
-## Nested Loops
+# Nested Loops
 Loops can be nested within each other to handle more complex tasks.
 
 Example : 
@@ -67,10 +67,10 @@ for (int i = 0; i < 5; i++) {
     }
 }
 
-## Enhanced For Loop
+# Enhanced For Loop
 The enhanced for loop, also known as the "for-each" loop, is used to iterate over arrays or collections.
 
-# Syntax
+## Syntax
 for (type element : array/collection) {
     // statements
 }
@@ -80,8 +80,8 @@ for (int number : numbers) {
     System.out.println("Number: " + number);
 } 
 
-## Break and Continue
-# Break
+# Break and Continue
+## Break
 The `break` statement exits the loop immediately.
 Example : 
 for (int i = 0; i < 10; i++) {
@@ -91,7 +91,7 @@ for (int i = 0; i < 10; i++) {
     System.out.println("Break/exit the loop on reaching 5 " + i);
 }
 
-# Continue
+## Continue
 The `continue` statement skips the current iteration and proceeds with the next one.
 Example : 
 for (int i = 0; i < 10; i++) {
@@ -101,10 +101,10 @@ for (int i = 0; i < 10; i++) {
     System.out.println("Continue to print numbers from 0 to 9 except 5 " + i);
 }
 
-## Examples
+# Examples
 This repository includes several example programs demonstrating the use of loops in Java. 
 
-## Contributing
+# Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any improvements or additional examples.
 
 Feel free to clone this repository and experiment with the examples to enhance your understanding of loops in Java. Happy coding!
